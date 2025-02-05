@@ -1,0 +1,8 @@
+const DIFFICULTY = 3;
+const MINE_RATE = 3000;
+const INITIAL_BALANCE = 500;
+const MINING_REWARD = 50;
+
+const CONFIG = { DIFFICULTY, MINE_RATE, INITIAL_BALANCE, MINING_REWARD };
+Object.freeze(CONFIG);
+module.exports = CONFIG;
